@@ -28,20 +28,6 @@ const WeTeach = () => {
       <Grid container item md={12}>
         <Heading>WE TEACH</Heading>
       </Grid>
-      <Grid
-        container
-        alignItems="center"
-        justify="center"
-        direction="column"
-        style={{ height: "30vh" }}
-      >
-        <StyledParagraph>
-          We analyze every student in the initial days by examining their
-          potential of learning and grasping new concepts. According to that, we
-          plan their study pattern so that we can efficiently focus on them.
-        </StyledParagraph>
-      </Grid>
-
       <HalfHeightGrid
         container
         item
@@ -81,6 +67,19 @@ const WeTeach = () => {
           We teach Physics, Chemistry and Maths.
         </H6>
       </HalfHeightGrid>
+      <Grid
+        container
+        alignItems="center"
+        justify="center"
+        direction="column"
+        style={{ height: "30vh" }}
+      >
+        <StyledParagraph>
+          We analyze every student in the initial days by examining their
+          potential of learning and grasping new concepts. According to that, we
+          plan their study pattern so that we can efficiently focus on them.
+        </StyledParagraph>
+      </Grid>
     </Grid>
   );
 };
