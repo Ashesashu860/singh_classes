@@ -12,7 +12,6 @@ import Footer from "./components/Footer";
 
 const Content = styled(FullHeightGrid)`
   padding-top: 70px;
-  height: 100vh !important;
 `;
 
 const App = () => {

@@ -10,11 +10,7 @@ h5,
 h6 {
   color: ${colors.primary};
   width: 100%;
-
-  @media screen and (max-width: 768px){
-    width: auto;
-    text-align: center;
-  }
+  text-align: center;
 }
 
 h1 {
@@ -62,13 +58,13 @@ h1 {
       font-size: 1.8rem;
     }
     h3 {
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
     h4 {
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
     h5 {
-      font-size: 0.7rem;
+      font-size: 1rem;
     }
   }  
 `;

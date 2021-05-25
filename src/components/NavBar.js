@@ -39,12 +39,12 @@ const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   color: ${(props) => props.color || colors.secondary};
   padding: 8px 16px;
-  font-weight: 500;
+  font-weight: 700;
   width: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  font-family: "Raleway", sans-serif;
   @media screen and (max-width: 1080px) {
     width: 15vw;
   }
@@ -88,8 +88,9 @@ const DrawerLogo = styled.img`
 
 const LogoText = styled.h4`
   margin-left: 8px;
-  font-style: "italic";
   color: ${colors.primary};
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
 `;
 
 const navLinkData = [
@@ -169,6 +170,7 @@ const NavBar = () => {
                     color: "#fff",
                   }}
                   color={colors.primary}
+                  onClick={(event) => handleToggleDrawer(event)}
                 >
                   {oneLink.label}
                 </StyledNavLink>
