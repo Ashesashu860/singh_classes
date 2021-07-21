@@ -91,21 +91,25 @@ const ContactUs = () => {
         <Center>
           <Card>
             <H4>PHONE NUMBERS</H4>
-            <Center style={{ flexWrap: "nowrap" }}>
-              <a href="tel:+917668807023">
-                <IconButton>
-                  <CallIcon />
-                </IconButton>
+            <Center>
+              <a href="tel:+917668807023" style={{ textDecoration: "none" }}>
+                <Center style={{ flexWrap: "nowrap" }}>
+                  <IconButton>
+                    <CallIcon />
+                  </IconButton>
+                  <H6>+91 7668807023</H6>
+                </Center>
               </a>
-              <H6>+91 7668807023</H6>
             </Center>
-            <Center style={{ flexWrap: "nowrap" }}>
-              <a href="tel:+918173014442">
-                <IconButton>
-                  <CallIcon />
-                </IconButton>
+            <Center>
+              <a href="tel:+918173014442" style={{ textDecoration: "none" }}>
+                <Center style={{ flexWrap: "nowrap" }}>
+                  <IconButton>
+                    <CallIcon />
+                  </IconButton>
+                  <H6>+91 8173014442</H6>
+                </Center>
               </a>
-              <H6>+91 8173014442</H6>
             </Center>
           </Card>
         </Center>
