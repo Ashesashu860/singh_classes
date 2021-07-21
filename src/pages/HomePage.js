@@ -1,16 +1,18 @@
 import React from "react";
-import { FullHeightGrid, MainContentGrid } from "../components/Common";
+import { MainContentGrid } from "../components/Common";
 import MainBackground from "../images/main-background.jpg";
 import styled from "styled-components";
 import WeTeach from "./WeTeach";
 import About from "./About";
+import ContactUs from "./ContactUs";
 
-const HomePageContent = styled(FullHeightGrid)`
+const HomePageContent = styled(MainContentGrid)`
   background-image: url(${MainBackground});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 1vw 8vw;
+  min-height: 100%;
 `;
 
 const H1 = styled.h1`
@@ -67,6 +69,7 @@ const HomePage = () => {
       </MainContentGrid>
       <WeTeach />
       <About />
+      <ContactUs />
     </>
   );
 };

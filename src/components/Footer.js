@@ -5,7 +5,7 @@ import { FullHeightGrid } from "./Common";
 
 const FooterWrapper = styled.div`
   background-color: ${colors.primary};
-  padding: 1vw 4vw;
+  padding: 1rem 2rem;
 `;
 
 const FooterText = styled.p`

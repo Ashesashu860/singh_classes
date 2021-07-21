@@ -13,7 +13,7 @@ const NavBarWrapper = styled.nav`
   width: 100vw;
   height: 70px;
   z-index: 1000;
-
+  box-shadow: 1px 1px 6px #aaa;
   @media screen and (max-width: 868px) {
     padding: 1vw 4vw;
   }

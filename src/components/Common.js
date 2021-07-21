@@ -8,11 +8,13 @@ export const FullHeightGrid = styled(Grid)`
 `;
 
 export const MainContentGrid = styled(Grid)`
-  height: calc(100vh - 70px) !important;
+  min-height: calc(100vh - 70px) !important;
+  max-width: 100vw;
 `;
 
 export const HalfHeightGrid = styled(Grid)`
-  height: calc((100vh - 70px) / 2) !important;
+  min-height: calc((100vh - 70px) / 2) !important;
+  max-width: 100vw;
 `;
 
 export const Heading = styled.h3`
