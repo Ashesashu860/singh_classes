@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1c6a7b58.chunk.css",
-    "main.js": "/static/js/main.b9d14d8f.chunk.js",
-    "main.js.map": "/static/js/main.b9d14d8f.chunk.js.map",
+    "main.js": "/static/js/main.fc6e404c.chunk.js",
+    "main.js.map": "/static/js/main.fc6e404c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7f54cef3.js",
     "runtime-main.js.map": "/static/js/runtime-main.7f54cef3.js.map",
     "static/js/2.5afefd89.chunk.js": "/static/js/2.5afefd89.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/call.c61dfe51.jpg": "/static/media/call.c61dfe51.jpg",
     "static/media/call2.8058407d.jpg": "/static/media/call2.8058407d.jpg",
     "static/media/main-background.c739e27b.jpg": "/static/media/main-background.c739e27b.jpg",
-    "static/media/namrata.13d29010.png": "/static/media/namrata.13d29010.png",
+    "static/media/namrata.20c18a8f.png": "/static/media/namrata.20c18a8f.png",
     "static/media/study.12c27482.jpg": "/static/media/study.12c27482.jpg",
     "static/media/study2.a0a47f1b.jpg": "/static/media/study2.a0a47f1b.jpg"
   },
@@ -23,6 +23,6 @@
     "static/js/runtime-main.7f54cef3.js",
     "static/js/2.5afefd89.chunk.js",
     "static/css/main.1c6a7b58.chunk.css",
-    "static/js/main.b9d14d8f.chunk.js"
+    "static/js/main.fc6e404c.chunk.js"
   ]
 }
